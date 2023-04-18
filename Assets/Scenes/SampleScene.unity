@@ -4306,7 +4306,7 @@ PrefabInstance:
     - target: {fileID: 4196858481661491982, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
       propertyPath: damage
-      value: 60
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4196858481661491982, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
@@ -4315,8 +4315,13 @@ PrefabInstance:
       objectReference: {fileID: 731684803212094906}
     - target: {fileID: 4196858481661491982, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
+      propertyPath: ammoType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196858481661491982, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
       propertyPath: timeBetweenShots
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5412203256083935200, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
@@ -4461,13 +4466,23 @@ PrefabInstance:
     - target: {fileID: 7282149659187319681, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
       propertyPath: damage
-      value: 40
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7282149659187319681, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 731684803212094906}
+    - target: {fileID: 7282149659187319681, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282149659187319681, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7316932171860885803, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
       propertyPath: m_IsActive
@@ -4480,13 +4495,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7742522011379921210, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921210, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 731684803212094906}
     - target: {fileID: 7742522011379921210, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921210, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
       propertyPath: timeBetweenShots
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7742522011379921216, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
@@ -4497,6 +4522,51 @@ PrefabInstance:
         type: 3}
       propertyPath: ammoAmount
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[2].ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[3].ammoType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoAmount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[2].ammoAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742522011379921224, guid: c7687c3238212854a83f39acb3706c64,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[3].ammoAmount
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7980703616108665745, guid: c7687c3238212854a83f39acb3706c64,
         type: 3}
