@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 4336927687669447072}
   - component: {fileID: 7809783492077342508}
   - component: {fileID: 5823070315268019036}
+  - component: {fileID: 3528171780058200282}
+  - component: {fileID: 2714034038124685261}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -252,6 +254,31 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3528171780058200282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823070315268019024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fa9b1be95d1b4439044762e2cf8396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalHealth: 100
+--- !u!114 &2714034038124685261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823070315268019024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e0bd68922f5304d8e6f194768938c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7742522011429491501
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,9 +518,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
   range: 100
+  damage: 30
+  muzzleFlash: {fileID: 7678804909162578574}
 --- !u!4 &5412203256084427712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 7742522009734460518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7678804909162578574 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 135792840582428392, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 7742522009734460518}
   m_PrefabAsset: {fileID: 0}

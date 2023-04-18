@@ -1,15 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] float hitPoints = 100;
+    [SerializeField] float totalHealth = 100;
 
     public void TakeDamage(float damage)
     {
-        hitPoints -= damage;
-        if (hitPoints <= 0)
+        BroadcastMessage("OnDamageTaken");
+        totalHealth -= damage;
+        if (totalHealth <= 0)
         {
             Destroy(gameObject);
         }
